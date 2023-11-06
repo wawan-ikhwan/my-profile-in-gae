@@ -12,5 +12,5 @@ handlers:
 #   application_readable: true
 #   secure: always
 
-- url: /static/images
+- url: /images
   static_dir: gs://menjadi-gcloud-engineer.appspot.com/images
