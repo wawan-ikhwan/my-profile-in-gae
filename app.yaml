@@ -1,11 +1,7 @@
 runtime: python39  # Choose the appropriate Python runtime version.
 
 handlers:
-# - url: /images
-#   static_dir: gs://menjadi-gcloud-engineer.appspot.com/images
-
 - url: /static
   static_dir: static  # This is the directory where your static files are located (e.g., CSS, JS, images).
-
 - url: /.*
   script: auto
