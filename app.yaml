@@ -7,10 +7,10 @@ handlers:
 - url: /.*
   script: auto
 
-- url: /static/images
-  static_dir: static/images
-  application_readable: true
-  secure: always
+# - url: /static/images
+#   static_dir: static/images
+#   application_readable: true
+#   secure: always
 
 - url: /static/images
   static_dir: gs://menjadi-gcloud-engineer.appspot.com/images
